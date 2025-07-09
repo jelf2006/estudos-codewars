@@ -17,7 +17,5 @@ function highAndLow(n){
 
 function highAndLow(n){
   let x = n.split(" ").map(x => Number(x));
-  let b = Math.max(...x)
-  let a = Math.min(...x)
-  return `${b} ${a}`
+  return `${Math.max(...x)} ${Math.min(...x)}`
 }
