@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: white;
+    font-size: 22px;
+}
+#me {
+    border-radius: 100%;
+    border-color: rgb( 255, 100, 0);
+    border-style: groove;
+}
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rgba(220, 0, 0, 60);
+}
