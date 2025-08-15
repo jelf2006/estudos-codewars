@@ -2,7 +2,7 @@ body {
     text-align: center;
     background: url("475905453_17882652885218651_3294001842423488056_n.jpg");
     background-size: 105%;
-    background-position-y: 37%;
+    background-position-y: 40%;
     background-position-x: 101%;
     margin: 0;
 }
@@ -23,14 +23,14 @@ p {
     max-width: 680px;
     margin: 20px auto;
 }
-#IMG2 {
+.IMG2 {
    border-radius: 50%;
     width: 12%;
     object-fit: cover;
     vertical-align: middle;
     margin-right: 8px;
 }
-#A1 {
+.A1 {
     text-decoration: none;
     font-size: 20px;
     color: #000;
@@ -39,8 +39,10 @@ p {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 8px 15px;
     border-radius: 20px;
+    margin: 8px auto;
     transition: background-color 0.3s;
+    width: 18%;
 }
-#A1:hover {
+.A1:hover {
     background-color: rgba(200, 200, 200, 0.9);
 }
